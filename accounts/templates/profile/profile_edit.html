@@ -1,1 +1,12 @@
-<h3>pofil edit </h3>
+<h1>pofil edit </h1>
+
+
+<form method="POST">
+    {%csrf_token%}
+
+{{userform}}
+{{profileform}}
+<br>
+<input type="submit" value="Edit">
+
+</form>

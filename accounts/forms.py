@@ -17,7 +17,7 @@ class UserForm(forms.ModelForm):
         fields = ['username','email','first_name','last_name']
 
 
-class ProfilerForm(forms.ModelForm):
+class ProfileForm(forms.ModelForm):
     
     class Meta:
         model = Profile
